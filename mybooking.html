@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- web title -->
+    <title>HelwanAir</title>
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- render the web normal -->
+    <link rel="stylesheet" href="css/normalized.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- muhamed saber css file -->
+    <link rel="stylesheet" href="css/mami.css">
+    <!-- Start Javascript -->
+    <script src="js/main.js"></script>
+    <!-- End Javascript -->
+</head>
+
+<body>
+    <!-- Start the header -->
+    <header class="TheHeader">
+        <!-- Start the Nav Bar -->
+        <nav id="menu1">
+            <!-- Start Icon -->
+            <span class="icon" onclick="show()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <!-- End Icon -->
+            <!-- Start slide Navigation -->
+            <div class="parent" id="sidebar">
+                <!-- Start Country List -->
+                <div class="country">
+                    <form method="get" action="#">
+                        <select name="country" id="country">
+                            <option value="Egypt">Egy</option>
+                            <option value="USA">USA</option>
+                        </select>
+                    </form>
+                </div>
+                <!-- End Country List -->
+                <!-- Start Language List -->
+                <div class="language">
+                    <form method="get" action="#">
+                        <select name="language" id="language">
+                            <option value="English">EN</option>
+                            <option value="Arabic">AR</option>
+                        </select>
+                    </form>
+                </div>
+                <!-- End Language List -->
+                <!-- Start the Nav Links -->
+                <ul class="content">
+                    <li><a href="index.html">Home</a></li>
+                    <hr>
+                    <li><a href="plan.html">Plan</a></li>
+                    <hr>
+                    <li><a href="bookpage.html">Book</a></li>
+                    <hr>
+                    <li><a href="About.html">About</a></li>
+                    <hr>
+                    <li><a href="Contact Us.html">CONTACT Us</a></li>
+                </ul>
+                <!-- End the Nav Links -->
+                <!-- Start social media List -->
+                <div class="social">
+                    <p>Follow Us On:</p>
+                    <div class="control">
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- End social media List -->
+            </div>
+            <!-- End slide Navigation -->
+        </nav>
+        <!-- End the Nav Bar -->
+        <!-- Start Logo -->
+        <a href="index.html"><img src="images/logo/Untitled-1(1).png" alt="logo" class="logo"></a>
+        <!-- End Logo -->
+        <!-- Start Bottoms -->
+        <div class="bottoms">
+            <a href="Sign Up1.html"><input type="button" value="Sign-Up"></a>
+            <a href="index_login_ramadan.html"><input type="button" value="Log-In" class="login"></a>
+        </div>
+        <!-- End Bottoms -->
+    </header>
+    <!-- End the header -->
+    <!-- Start main -->
+    <!--editable-->
+    <main>
+        
+        <div class="mybookingwholepage">
+        <div class="mybookingtitle">
+            <h2>MY BOOKINGS</h2>
+        </div>
+        <hr>
+        <div class=" mybookingpageparent">
+            <div class="mybookingpagebox1"> <h1>My Booking</h1>
+                <p>Our website not only makes everything convenient for you it puts you in control. Now you can
+                    conveniently manage your booking online by choosing your seat, selecting required meals,
+                    modifying your booking class or even changing your destination. You can also save your
+                    valuable time in the airport by paying in advance for excess baggage.
+                    </p><p>Enter your details to see and modify your bookings</p>
+                    <br>
+                    <form class="formformybooking" action="#"> 
+                        
+                        
+                            <input class="bookingrefranceI" type="text" required placeholder="Booking refrance">
+                        
+                             
+                             <input class="passengerslastnameI" type="text" required placeholder="Passenger's last name"> 
+            <br>
+                  
+     <div class="formformybookinglastpart">
+        <div class="passengerlastnamequestion"><p>Passenger's last name How to find your booking refrance?</p></div>
+        <input class="submitmybookin" type="button" onclick="alert('Oops! Something went wrong')" value="Submit My Booking!">
+    </form>
+    
+    
+     </div>
+               
+            </div>
+            <div class="mybookingpagebox2"> 
+                <p>Travel plans dont always go as planned.Here's some essential information that you'll need if your ticket has to be changed or your need to be update any of your travel details.</p>
+            </div>           
+            <div class="mybookingpagebox3"> <h1>Please note:</h1>
+                <ul class="mybookingpagebox3list">
+                    <li>Changes must be made at HelwanAir.com and are subject to availability and your fare rules.</li>
+                    <li>The fare rules will vary depending on the type of fare selected.</li>
+                    <li>Check the fare conditions when you make your booking at HelwanAir.com.</li>
+                    <li>Only date, time can be changed online at HelwanAir.com.</li>
+                    <li>For all other changes, including destination, changes for unaccompanied minors or in the case that changes are not required for all passengers, please contact nearest HelwanAir office or HelwanAir call center at 19991  from your mobile or +201064812572 from any landline (within Egypt)
+
+                    </li>
+                </ul> 
+             </div>
+        </div>
+
+    </div>
+    
+    </main>
+    <!-- End main -->
+    <!-- Start Footer -->
+    <!-- Not editable-->
+    <footer>
+        <hr>
+        <div class="container">
+            <p class="copyrights">&copy; Ticky,All Right Reserved</p>
+            <p class="privacy"> Privacy Policy | Site Help</p>
+        </div>
+        <hr>
+    </footer>
+    <!-- End Footer -->
+        <!-- Start javascript -->
+        <script src="js/main.js"></script>
+</body>
+
+
+</html>

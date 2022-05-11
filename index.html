@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- web title -->
+    <title>HelwanAir</title>
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- render the web normal -->
+    <link rel="stylesheet" href="css/normalized.css">
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/styles2.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- my css file -->
+    <link rel="stylesheet" href="css/Nash2t.css">
+</head>
+<body>
+    <!-- Start the header -->
+    <header class="TheHeader">
+        <!-- Start the Nav Bar -->
+        <nav id="menu1">
+            <!-- Start Icon -->
+            <span class="icon" onclick="show()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <!-- End Icon -->
+            <!-- Start slide Navigation -->
+            <div class="parent" id="sidebar">
+                <!-- Start Country List -->
+                <div class="country">
+                    <form method="get" action="#">
+                        <select name="country" id="country">
+                            <option value="Egypt">Egy</option>
+                            <option value="USA">USA</option>
+                        </select>
+                    </form>
+                </div>
+                <!-- End Country List -->
+                <!-- Start Language List -->
+                <div class="language">
+                    <form method="get" action="#">
+                        <select name="language" id="language">
+                            <option value="English">EN</option>
+                            <option value="Arabic">AR</option>
+                        </select>
+                    </form>
+                </div>
+                <!-- End Language List -->
+                <!-- Start the Nav Links -->
+                <ul class="content">
+                    <li><a href="index.html">Home</a></li>
+                    <hr>
+                    <li><a href="plan.html">Plan</a></li>
+                    <hr>
+                    <li><a href="bookpage.html">Book</a></li>
+                    <hr>
+                    <li><a href="About.html">About</a></li>
+                    <hr>
+                    <li><a href="Ceck-in.html">CONTACT Us</a></li>
+                </ul>
+                <!-- End the Nav Links -->
+                <!-- Start social media List -->
+                <div class="social">
+                    <p>Follow Us On:</p>
+                    <div class="control">
+                        <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                        </a>  
+                        <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- End social media List -->
+            </div>
+            <!-- End slide Navigation -->
+        </nav>
+        <!-- End the Nav Bar -->
+        <!-- Start Logo -->
+        <a href="index.html"><img src="images/logo/Untitled-1(1).png" alt="logo" class="logo"></a>
+        <!-- End Logo -->
+        <!-- Start Bottoms -->
+        <div class="bottoms">
+            <a href="Sign Up1.html"><input type="button" value="Sign-Up"></a>
+            <a href="index_login_ramadan.html"><input type="button" value="Log-In" class="login"></a>
+        </div>
+        <!-- End Bottoms -->
+    </header>
+
+    <!-- End the header -->
+
+    <!-- Start main --> <!--editable-->
+    
+    <main>
+        <!-- start Section -->
+        <section class="photos">
+            <img src="images/pexels-jimmy-chan-957768.png" alt="plane">
+            <!-- Start Bottoms -->
+            <div id="b1" class="bottom1">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div id="b2" class="bottom2">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <!-- End Bottoms -->
+        </section>
+        <!-- End Section -->
+        <!-- Start the web list -->
+        <!-- Start Round Trip -->
+        <article class="about">
+            <!-- Start Choosing List -->
+            <div class="startChoosingList">
+                <ul class="choosingList">
+                    <li><button class="btn active1" data-id="book">Book</button></li>
+                    <li><button class="btn" data-id="timetable">TIMETABLE</button></li>
+                    <li><button class="btn" data-id="flightstatus">FLIGHTSTATUS</button></li>
+                    <li><button class="btn" data-id="mybooking">MYBOOKING</button></li>
+                </ul>
+            </div>
+            
+            <!-- End Choosing List -->
+            <div class="mainParent Box active1" id="book">
+                <div class="webList">
+                        <h2>Round-Trip</h2>
+                        <div class="child">
+                            <i class="fa-solid fa-plane-departure"></i>
+                            <h3>FROM</h3>
+                            <input type="text" placeholder="Egypt,Cairo">
+                        </div>
+                        <div class="child">
+                            <i class="fa-solid fa-plane-arrival"></i>
+                            <h3>TO</h3>
+                            <input type="text" placeholder="Egypt,Sharm">
+                        </div>
+                        <div class="child">
+                            <i class="fa-solid fa-calendar"></i>
+                            <h3>DATES</h3>
+                            <input type="text" placeholder="dd/mm/yy">
+                        </div>
+                        <div class="child class">
+                            <i class="fa-solid fa-champagne-glasses"></i>
+                            <h3>CLASS</h3>
+                            <input type="text" placeholder="First Class">
+                        </div>
+                        <div class="continue">
+                            <button type="button" onclick="alert('            wrong input            ')"><i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                </div>
+            </div>
+
+            <!-- End Round Trip -->
+            <!-- Start time table -->
+            <div class="mainParent2 Box " id="timetable">
+                <div class="webList2">
+                    <h2>Time table</h2>
+                    <div class="child">
+                        <p>Wiew current timetable information and indicate the departure or return date of the flight ..to track real time arrival and departure information.</p>
+                        <form action="#" method="get">
+                            <div class="inputBox">
+                                <label for="From">From</label>
+                                <div class="backgroundcolor">
+                                <input class="From" type="text">
+                                </div>
+                            </div>
+                            <div class="inputBox">
+                                <label for="To">To</label>
+                                <div class="backgroundcolor">
+                                <input class="To" type="text">
+                                </div>
+                            </div>
+                            <div class="inputBox">
+                                <label for="Departure Date">Departure Date</label>
+                                <div class="backgroundcolor">
+                                <input class="Departure Date" type="text">
+                                </div>
+                            </div>
+                            <div class="inputBox">
+                                <label for="Return Date">Return Date</label>
+                                <div class="backgroundcolor">
+                                <input class="Return Date" type="text">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                <div class="continue">
+                    <button type="button" onclick="alert('            wrong input            ')"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                </div>
+            </div>
+
+            <!-- End time table -->
+
+            <!-- Start FLIGHTSTATUS -->
+
+            <div class="mainParent3 Box " id="flightstatus">
+                <div class="webList3">
+                    <h2>Flight Status</h2>
+                    <div class="child">
+                        <p>Flight Status information gives you real time information on all HELWANAIR group flights for yesterday, today and tomorrow. To view flight status you have two chices for selection: flight number or flight route.</p>
+                        <h3>Choose Date & Airlines</h3>
+                        <form action="#">
+                            <div class="inputBox">
+                                <label for="Date">Date</label>
+                                <div class="backgroundcolor">
+                                <input class="Date" type="text">
+                                </div>
+                            </div>
+                            <h3>Please Select one of the following Airlines Listed below:</h3>
+                            <div class="radioButtons">
+                            <label>
+                                <input class="helwanair" type="radio" name="sample" checked>
+                                <span>Helwan air</span> 
+                            </label>
+                            <label>
+                                <input class="cairoair" type="radio" name="sample">
+                                <span>Cairo air</span>
+                            </label>
+                        </div>
+                        <div class="inputBox">
+                            <label for="Flight Number">Flight Number</label>
+                            <div class="backgroundcolor">
+                            <input class="Flight Number" type="text">
+                            </div>
+                        </div>
+                        <div class="btnss">
+                            <button class="find" type="submit" onclick="alert('            wrong input            ')">FIND FLIGHT</button>
+                            <button class="reset" type="reset">RESET</button>
+                            <p>For flights after tomorrow's date, use Timetable.</p>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- End FLIGHTSTATUS -->
+
+            <!-- Start My Booking -->
+            <div class="mainParent4 Box" id="mybooking">
+                <div class="webList4">
+                    <h2>My Booking</h2>
+                    <div class="child">
+                        <p>Our website not only makes everything conventient for you it puts you in control. Now you can conveniently manage your booking online by choosing your seat, selecting required meals, modifying your booking class or even changing your destination. You can also save your valuable time in the airport by paying in advance for excess baggage Enter your details to see and modify your bookings</p>
+                        <form action="#" method="get">
+                                <div class="inputBox">
+                                    <label for="Booking Refrance">Booking Refrance</label>
+                                    <div class="backgroundcolor">
+                                    <input class="Booking Refrance" type="text">
+                                    </div>
+                                </div>
+                                <div class="inputBox">
+                                    <label for="Passenger's last name">Passenger's last name</label>
+                                    <div class="backgroundcolor">
+                                    <input class="Passenger's last name" type="text">
+                                    </div>
+                                </div>
+                                <div class="lastdiv">
+                                    <div class="quis">
+                                        <p>Passenger's last name How to find your booking reference ? </p>
+                                    </div>
+                                    <a href="mybooking.html"><button type="button">SEE YOUR BOOKING</button></a>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+            <!-- End My Booking -->
+
+            <!-- End the web list -->
+            
+            <!-- Start Our Offers -->
+            
+
+        <section class="menu">
+            <!-- title -->
+            <div class="title">
+                <h1>OUR OFFERS</h1>
+                <div class="underline"></div>
+                <div class="TitleParagraph">
+                    Discover TICHY best fare deals on selected routes 
+                </div>
+            </div>
+            <!-- filter buttons -->
+            <div class="btn-container">
+            <!-- javascript goes here -->
+            </div>
+            <!-- menu items -->
+            <div class="section-center">
+            <!-- javascript goes here -->
+            </div>
+            <div class="javabtn">
+                <a href="specialoffers.html"><button type="button">SEE ALL OFFERS</button></a>
+            </div>
+        </section>
+        <!-- End our Offers -->
+        <section class="bfFooter">
+            <div class="beforefooter">
+                <div class="beforefooter2">
+                    <h1>
+                        BEFORE YOU FLY
+                    </h1>
+                    <p>
+                        Cheack our Additional Services, brought to you for a better travel experience
+                    </p>
+                </div>
+                    <div class="icons_in_beforefooter2">
+                        <div class="content_of_icon">
+                            <div class="icon"><i class="fa-solid fa-suitcase-rolling"></i></div>
+                            <div class="text_of_icon">
+                                BAGGAGE
+                            </div>
+                        </div>
+                        <div class="content_of_icon">
+                            <div class="icon"><i class="fa-solid fa-arrow-up-from-bracket"></i></div>
+                            <div class="text_of_icon">
+                                E_UPGRADE
+                            </div>
+                        </div>
+                        <div class="content_of_icon">
+                            <div class="icon"><i class="fa-solid fa-hourglass"></i></div>
+                            <div class="text_of_icon">
+                                LOUNGES
+                            </div>
+                        </div>
+                        <div class="content_of_icon">
+                            <div class="icon"><i class="fa-solid fa-circle-info"></i></div>
+                            <div class="text_of_icon">
+                                STAR TRAVEL INFO
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- End main -->
+    
+    <!-- Start Footer --> <!-- Not editable-->
+    <footer>
+        <hr>
+        <div class="container">
+        <p class="copyrights">&copy; Ticky,All Right Reserved</p>
+        <p class="privacy"> Privacy Policy | Site Help</p>
+        </div>
+        <hr>
+    </footer>
+    <!-- End Footer -->
+    <!-- Start javascript -->
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

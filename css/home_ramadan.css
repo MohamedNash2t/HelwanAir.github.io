@@ -1,0 +1,364 @@
+main {
+  width: 100%;
+  height: fit-content;
+  /* background-color: white; */
+}
+
+.background {
+  height: 550px;
+}
+.allcontener {
+  /* border: 5px solid black; */
+  width: 70%;
+  background-color: white;
+  /* box-shadow: 0px 0px 33px 1px black; */
+}
+.titlecontener {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* height: 800px; */
+}
+h1 {
+  font-size: 2em;
+  /* margin: 12px 0; */
+  width: 100%;
+  /* height: fit-content; */
+  font-size: 75px;
+  /* position: relative;
+    top: 20px; */
+  padding: 65px 0;
+  line-height: 58px;
+  margin: 100px 0 0;
+}
+.title_1 {
+  /* height: 800px; */
+  /* width: 600px; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: fit-content;
+  margin: 15px;
+}
+h1 span {
+  font-size: 23px;
+  /* position: relative;
+    top: -48px; */
+  font-weight: 700;
+  opacity: 0.6;
+}
+.specialoffercontener {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.specialofferlink {
+  transition: all 1s ease;
+  background-color: #ffdb74;
+  border-radius: 50px;
+}
+.specialoffer:hover {
+  background-color: #014364;
+}
+.specialoffer {
+  height: 80px;
+  width: 200px;
+  background-color: var(--main-color);
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.5s ease;
+  /* position: relative;
+    left: 30%; */
+}
+.cantrycontener {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 0 0;
+}
+.cauntrylink {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: 400;
+}
+ul {
+  width: 100%;
+  height: fit-content;
+}
+.cantrycontener ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 40px 0 20px;
+}
+.cantrycontener ul .cauntry {
+  margin: 0 15px;
+  border-width: 0 0 5px;
+  border-color: aliceblue;
+  border-style: solid;
+  transition: all 0.5s ease;
+}
+.cantrycontener ul .cauntry:hover {
+  border-width: 0 0 5px;
+  border-style: solid;
+  border-color: darkgrey;
+  /* margin: 0 0 5px; */
+}
+.imagescontener {
+  display: grid;
+  grid-template: repeat(3, 400px) / repeat(3, 300px);
+  justify-content: space-evenly;
+  row-gap: 30px;
+  margin: 30px 0;
+}
+.up_of_contentcontener {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentcontener {
+  border: 5px black;
+  height: 400px;
+  width: 300px;
+  position: relative;
+  /* display: flex;
+    flex-direction: column; */
+  /* perspective: 300px;
+    perspective-origin: bottom center; */
+  transform-style: preserve-3d;
+  transform-origin: right center;
+  transition-duration: 1s;
+  transition-property: transform;
+}
+.image {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  backface-visibility: hidden;
+  font-weight: bold;
+  color: white;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img1 {
+  background-image: url("../images/images/middle east/Dubai United Arab Emirates Skyscrapers 4K HD Desktop.jpg");
+  background-position: center;
+  background-size: 300px 400px;
+  box-shadow: 250px -450px 300px -353px black inset;
+}
+.img12 {
+  background-color: var(--main-color);
+  transform: rotateY(-180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.up_of_contentcontener div .img12 span {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.up_of_contentcontener div .img12 a {
+  /* border: 5px solid white; */
+  color: black;
+  text-decoration: none;
+  background-color: gold;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: x-large;
+  font-weight: 700;
+}
+.up_of_contentcontener div .img12 a:hover {
+  background-color: #ffdb74;
+}
+.contentcontener:hover {
+  transform: translatex(-100%) rotateY(-180deg);
+}
+.img2 {
+  background-image: url("../images/images/middle east/iraq.jpg");
+  background-position: center;
+  background-size: 300px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 17px 0px;
+  font-size: 14px;
+  box-shadow: 250px -450px 300px -353px black inset;
+}
+.img3 {
+  background-image: url("../images/images/middle east/lebanon.jpg");
+  background-position: center;
+  background-size: 300px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 17px 0px;
+  font-size: 14px;
+  box-shadow: 250px -450px 300px -353px black inset;
+}
+.img4 {
+  background-image: url("../images/images/middle east/qatar.jpg");
+  background-position: center;
+  background-size: 300px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 17px 0px;
+  font-size: 14px;
+  box-shadow: 250px -450px 300px -353px black inset;
+}
+.img5 {
+  background-image: url("../images/images/middle east/saudi arabia.jpg");
+  background-position: center;
+  background-size: 300px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 17px 0px;
+  font-size: 14px;
+  box-shadow: 250px -450px 300px -353px black inset;
+}
+.img6 {
+  background-image: url("../images/images/middle east/syria.jpg");
+  background-position: center;
+  background-size: 300px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 17px 0px;
+  font-size: 14px;
+  box-shadow: 250px -450px 300px -353px black inset;
+}
+.img7 {
+  background-image: url("../images/images/middle east/yemen.jpg");
+  background-position: center;
+  background-size: 300px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 17px 0px;
+  font-size: 14px;
+  box-shadow: 250px -450px 300px -353px black inset;
+}
+.img8 {
+  background-image: url("../images/images/middle east/cyprus.jpg");
+  background-position: center;
+  background-size: 300px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 17px 0px;
+  font-size: 14px;
+  box-shadow: 250px -450px 300px -353px black inset;
+}
+.img9 {
+  background-image: url("../images/images/africa/egypt.jpg");
+  background-position: center;
+  background-size: 300px 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 17px 0px;
+  font-size: 14px;
+  box-shadow: 250px -450px 300px -353px black inset;
+}
+
+.seealloffers0 {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.seealloffers {
+  height: 80px;
+  width: 80%;
+  background-color: var(--main-color);
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin: 30px 0;
+}
+.beforefooter {
+  width: 100%;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+}
+.beforefooter2 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.beforefooter .beforefooter2 .beforefooter3 {
+  color: var(--main-color);
+  margin: 0;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 500;
+  font-variant-caps: all-small-caps;
+}
+.beforefooter .beforefooter2 .beforefooter3 span {
+  color: var(--main-color);
+}
+.icons_in_beforefooter2 {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 25px 0 0 0;
+}
+.icons_in_beforefooter2 i {
+  font-size: 60px;
+  color:gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.content_of_icon {
+    width: 25%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.content_of_icon .icon{
+    width: 100%;
+    height: 50%;
+
+}
+.content_of_icon .text_of_icon{
+    width: 100%;
+    height: 50%;
+    color: var(--main-color);
+    font-weight: 900;
+}
+

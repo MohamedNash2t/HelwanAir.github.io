@@ -1,0 +1,79 @@
+*{
+    text-decoration: none;
+}
+main {
+    width: 100%;
+}
+
+main div.Chead h1{
+    color: var(--main-color);
+    margin: 5% 3%;
+}
+main  div.AllBoxs{
+    width: 100%;
+    margin: 3% 0;
+}
+main  div.AllBoxs div.Boxs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    height: 1000px;
+    padding: 20px;
+    
+}
+main  div.AllBoxs div.Boxs #box{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+main  div.AllBoxs div.Boxs #box .ibox{
+    width: 100%;
+    height: 50%;
+    /* background-color: var(--main-color); */
+}
+main  div.AllBoxs div.Boxs #box .PBox{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: var(--second-color);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+main  div.AllBoxs div.Boxs #box .PBox h3{
+    margin-top: 30px;
+    text-align: center;
+    color: var(--main-color);
+    height: fit-content;
+}
+
+main  div.AllBoxs div.Boxs #box .PBox p{
+    text-align: center;
+    color: var(--text-color);
+    padding-bottom: 50px;
+}
+
+.M1{
+    background-image: url("../images/photo-1520442027413-7bf6c51517da.jpeg.jpg");
+    background-size: cover;
+}
+.M2 {
+    background-image: url(../images/photo-1524592714635-d77511a4834d.jpeg.jpg);
+    background-size: cover;
+}
+.M3 {
+    background-image: url(../images/photo-1436491865332-7a61a109cc05.jpeg.jpg);
+    background-size: cover;
+}
+.M4 {
+    background-image: url(../images/photo-1530545124313-ce5e8eae55af.jpeg.jpg);
+    background-size: cover;
+}
+.M5 {
+    background-image: url(../images/depositphotos_102568672-stock-photo-we-hear-you-text-concept.jpg);
+    background-size: cover;
+}

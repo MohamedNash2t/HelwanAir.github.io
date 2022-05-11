@@ -1,0 +1,226 @@
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+  --main-color:#005D8A;
+  --second-color:#58B6AA;
+  --text-color:#BCBCBC;
+}
+/*
+=============== 
+Global Styles
+===============
+*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+section.menu img:not(.logo) {
+  width: 100%;
+}
+section.menu img {
+  display: block;
+}
+
+section.menu h1,
+section.menu h2,
+section.menu h3,
+section.menu h4 {
+  letter-spacing: 0.10em;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--main-color);
+}
+section.menu h1 {
+  font-size: 2.5rem;
+}
+section.menu h2 {
+  font-size: 2rem;
+}
+section.menu h3 {
+  font-size: 1.25rem;
+}
+section.menu h4 {
+  font-size: 0.875rem;
+}
+section.menu p {
+  margin-bottom: 1.25rem;
+  color: var(--text-color);
+}
+@media screen and (min-width: 800px) {
+  section.menu  h1 {
+    font-size: 4rem;
+  }
+  section.menu  h2 {
+    font-size: 2.5rem;
+  }
+  section.menu  h3 {
+    font-size: 1.75rem;
+  }
+  section.menu  h4 {
+    font-size: 1rem;
+  }
+  section.menu h1,
+  section.menu h2,
+  section.menu h3,
+  section.menu h4 {
+    line-height: 1;
+  }
+}
+/*  global classes */
+
+
+/* section */
+
+/*
+=============== 
+Menu
+===============
+*/
+
+section.menu {
+  padding: 5rem 0;
+}
+section.menu div.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+section.menu div.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: var(--second-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.menu div.title div.TitleParagraph{
+  margin-top: 2rem;
+  color: var(--text-color);
+  font-size: 1.3em;
+  width: 100%;
+}
+
+section.menu div.btn-container {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+section.menu div.btn-container button.filter-btn {
+  background: transparent;
+  border-color: var(--second-color);
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+  letter-spacing: 1px;
+  border-radius: var(--radius);
+  padding: 0.375rem 0.75rem;
+  color: var(--second-color);
+  cursor: pointer;
+  transition: var(--transition);
+}
+section.menu div.btn-container button.filter-btn:hover {
+  background: var(--main-color);
+  color: var(--second-color);
+}
+section.menu div.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+}
+.menu-item {
+  display: grid;
+  gap: 1rem 2rem;
+  max-width: 25rem;
+}
+.photo {
+  object-fit: cover;
+  height: 200px;
+  border: 0.25rem solid var(--main-color);
+  border-radius: var(--radius);
+}
+section.menu div.item-info header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #aaa;
+}
+section.menu div.item-info h4 {
+  margin-bottom: 0.5rem;
+}
+section.menu h4.price {
+  color: var(--main-color);
+}
+section.menu p.item-text {
+  color: var(--text-color);
+  margin-bottom: 0;
+  padding-top: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-item {
+    grid-template-columns: 225px 1fr;
+    gap: 0 1.25rem;
+    max-width: 40rem;
+  }
+  .photo {
+    height: 175px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  section.menu div.section-center {
+    width: 95vw;
+    grid-template-columns: 1fr 1fr;
+  }
+  .photo {
+    height: 150px;
+  }
+}
+
+
+div.javabtn{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  padding-right: 50px;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 4%;
+}
+
+div.javabtn button{
+  background-color: var(--main-color);
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  padding: 20px;
+  color: var(--second-color);
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,72 @@
+main{
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.firstcontener {
+    height: 380px;
+    width: 600px;
+    border: 1px solid black;
+}
+.logincontener{
+    font-size: 75px;
+    font-weight:400;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    color: var(--main-color);
+}
+.upcontener{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 207px;
+}
+.inputcontener{
+    margin: 10px 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+.inputcontener input{
+    width: 94%;
+    height: 100%;
+    color: var(--text-color);
+    background-color: var(--second-color);
+    border-radius: 10px;
+    padding: 0 0 0 10px;
+    font-weight: 600;
+}
+.submetcontener{
+    width: 100%;
+    height: 75px;
+    /* padding: 0 0 0 10px; */
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submetcontener input{
+    height: 50px;
+    width: 94%;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    border-radius: 10px;
+    text-align: center;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+.logincontener form{
+    height: 283px;
+    width: 100%;
+}

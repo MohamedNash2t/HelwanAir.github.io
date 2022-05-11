@@ -1,0 +1,140 @@
+/* Start main */
+
+/* Start timetable */
+
+/* Start imgAndHeader */
+
+main div.imgAndHeader{
+    display: flex;
+    align-items: center;
+    background-image: url(../images/pexels-cottonbro-7428209.jpg);
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+main div.imgAndHeader h1{
+    padding-left: 5%;
+    color: var(--main-color);
+    font-size: 3em;
+    font-weight: lighter;
+}
+
+@media(max-width:800PX){
+    main div.imgAndHeader h1{
+        font-size: 1.5em;
+        padding-left: 3%;
+}
+}
+
+/* End imgAndHeader */
+
+/* Start First Box */
+
+main div.parentContainer{
+    width: 100%;
+    margin: 40px 0;
+
+}
+
+main div.parentContainer div.child{
+    width: 80%;
+    margin: auto;
+    background-color: var(--main-color);
+    padding: 30px 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 4%;
+}
+
+main div.parentContainer div.child p{
+    color: var(--text-color);
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+main div.parentContainer div.child div.bigForm form{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 3%;
+
+}
+
+main div.parentContainer div.child div.bigForm form div.inputBox{
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+@media(max-width:800px){
+    main div.parentContainer div.child div.bigForm form div.inputBox{
+        width: 100%;
+    }
+}
+
+main div.parentContainer div.child div.bigForm form div.inputBox label{
+    color: white;
+    font-weight: bolder;
+}
+
+main div.parentContainer div.child div.bigForm form div.inputBox div.backgroundcolor{
+    width: 95%;
+    height: 40px;
+    background-color: var(--second-color);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main div.parentContainer div.child div.bigForm form div.inputBox input{
+    background-color: transparent;
+    outline: none;
+    border-color: transparent transparent var(--text-color) transparent;
+    width: 90%;
+    color: var(--text-color);
+}
+
+/* Start button */
+main div.parentContainer div.child div.btnShowFlight button{
+    padding: 10px 20px;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    background-color: white;
+    color: var(--second-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+/* End button */
+
+/* End First Box */
+
+/* Start Second Box */
+
+main div.parentContainer div.b2 h1{
+    color: white;
+}
+
+main div.parentContainer div.b2 p{
+    color: var(--text-color);
+    padding-bottom: 4%;
+}
+
+/* End Second Box */
+
+/* End timetable */
+
+/* End main */

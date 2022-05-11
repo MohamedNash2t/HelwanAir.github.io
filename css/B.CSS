@@ -1,0 +1,283 @@
+.radiobuttons1{
+    position: relative;
+    left: 10px;
+
+    width: 200px;
+}
+
+.bangkokform {
+    background-color: #005D8A;
+    border-style: solid;
+    border-radius: 8px;
+    width: 1100px;
+    padding: 10px;
+    margin: auto;
+    height: 533px;
+    display: flex;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+
+
+.fromanddeperturedate1 {
+
+    position: relative;
+    top: 10px;
+    padding: 10px;
+
+}
+
+.fromformairports11{
+    position: relative;
+    padding: 10px;
+    left: 10px;
+    top: 10px;
+}
+
+.labelforfromposition1 {
+    position: relative;
+    left: -160px;
+    top: 21px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.selectfromairports1 {
+    border: solid;
+    color: white;
+    background-color: #58B6AA;
+    border-radius: 20px;
+    border-color: white;
+    width: 266px;
+    height: 42px;
+    position: relative;
+    left: -183px;
+    border-width: 1px;
+    top: 11px;
+    padding: 10px;
+}
+
+.labelfortoposition1 {
+    position: relative;
+    left: 164px;
+    top: -62px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.selecttoairports1{
+    border: solid;
+    color: white;
+    background-color: #58B6AA;
+    border-radius: 20px;
+    border-color: white;
+    width: 266px;
+    height: 42px;
+    position: relative;
+    left: 160px;
+    top: -56px;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.DEPARTURE-DATEforairportsL1 {
+    position: relative;
+    left: -161px;
+    top: -27px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.DEPARTURE-DATEforairportsI1 {
+    border: solid;
+    color: white;
+    background-color: #58B6AA;
+    border-radius: 20px;
+    border-color: white;
+    width: 258px;
+    height: 42px;
+    position: relative;
+    left: -157px;
+    top: -17px;
+    align-items: center;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.RETURN-DATEairportL1 {
+    position: relative;
+    left: 167px;
+    top: -87px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.RETURN-DATEairportI1 {
+    border: solid;
+    color: white;
+    background-color: #58B6AA;
+    border-radius: 20px;
+    border-color: white;
+    width: 258px;
+    height: 42px;
+    position: relative;
+    left: 164px;
+    top: -81px;
+    align-items: center;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.adults-number {
+    border: solid;
+    color: white;
+    background-color: #58B6AA;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    width: 175px;
+    height: 42px;
+    position: relative;
+    left: -155px;
+    top: -7px;
+    align-items: center;
+    padding: 10px;
+}
+
+.child-number {
+    border: solid;
+    color: white;
+    background-color: #58B6AA;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    width: 175px;
+    height: 42px;
+    position: relative;
+    left: -93px;
+    top: -7px;
+    align-items: center;
+    padding: 10px;
+}
+
+.under2years-number{
+    border: solid;
+    color: white;
+    background-color: #58B6AA;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    width: 175px;
+    height: 42px;
+    position: relative;
+    left: 331px;
+    top: -52px;
+    padding: 10px;
+    align-items: center;
+}
+
+.child-number-age1{
+    position: relative;
+    left: 103px;
+    top: -37px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.babynumberage1 {
+    position: relative;
+    left: 349px;
+    top: -54px;
+    color: aliceblue;
+    font-size: 20px;
+
+    font-weight: bolder;
+
+}
+
+.Class-nameairportL1 {
+    position: relative;
+    left: -153px;
+    top: -30px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.class-nameairportI1 {
+    border: solid;
+    color: white;
+    background-color: #58B6AA;
+    border-radius: 20px;
+    border-color: white;
+    width: 258px;
+    height: 42px;
+    position: relative;
+    left: -157px;
+    top: -17px;
+    align-items: center;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.submitmybookI1 {
+    background-color: white;
+    border: 2px solid;
+    color: #005D8A;
+    margin: 46px 27px;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+    left: 246px;
+    top: -111px;
+    width: 151px;
+    height: 50px;
+    padding: 14px;
+}
+
+.bookaflightphotoplace1 {
+    width: 358px;
+    height: 439px;
+    background-color: #BCBCBC;
+    position: relative;
+    left: -8px;
+    top: 38px;
+    background-image: url(..//images/pexels-jason-toevs-2033343.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.mybookingpagebox31{
+    background-color: #005D8A;
+    border-radius: 8px;
+    border-style: solid;
+    margin: 10px;
+    min-height: 454px;
+    width: 1014px;
+    margin: auto;
+    margin-bottom: 200px;
+  }
+  .mybookingpagebox31 h1{
+    color: #58B6AA;
+    text-align: left;
+    font-size: 50px;
+    padding-left: 48px;
+  }
+  .mybookingpagebox31list{
+    color: white;
+    text-align: left;
+    font-size: 28px;
+    padding-left: 115px;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    line-height:40px;
+
+    
+  }
+ 

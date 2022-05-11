@@ -1,0 +1,1166 @@
+/* Start main */
+main section.photos{
+    position: relative;
+}
+
+/*start Back ground image */
+main section.photos img{
+    width: 100%;
+    
+
+
+}
+@media(min-width:1200px){
+    main section.photos{
+        height: 90vh;
+        overflow: hidden;
+    }
+}
+
+/*end Back ground image */
+
+/* start bottoms */
+
+main section.photos div i{
+    position: absolute;
+    font-size: 45px;
+    color: rgb(48, 48, 48);
+    top: 41%;
+}
+@media(max-width:800px){
+    main section.photos div i{
+        font-size: 30px;
+    }
+
+}
+/* Start left bottom */
+main section.photos div.bottom1 i{
+    right: 20px;
+}
+@media(max-width:800px){
+    main section.photos div.bottom1 i{
+        right: 10px;
+    }
+
+}
+/* End left bottom */
+
+/* Start Right bottom */
+main section.photos div.bottom2 i{
+    left: 20px;
+}
+@media(max-width:800px){
+    main section.photos div.bottom2 i{
+        left: 10px;
+    }
+
+}
+/* End Right bottom */
+
+/* end bottoms */
+
+
+/* Start ChoosingList */
+
+
+
+
+main article.about ul.choosingList{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    top: 70%;
+    width: 40%;
+    justify-content: space-between;
+    left: 50%;
+    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    -moz-transform: translate(-50%,0);
+    -ms-transform: translate(-50%,0);
+    -o-transform: translate(-50%,0);
+}
+
+main article.about ul.choosingList li{
+    background-color: var(--main-color);
+    color: var(--main-color);
+    font-weight: bold;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+main article.about ul.choosingList li button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+
+}
+
+main article.about ul.choosingList li:hover{
+    background-color: var(--second-color);
+
+}
+
+@media(max-width:1200px){
+    main article.about ul.choosingList li{
+        font-size: 16px;
+
+    }
+    main article.about ul.choosingList{
+        width: 70%;
+    } 
+
+}
+
+
+@media(max-width:1150px){
+
+    main article.about ul.choosingList{
+        top: 55%;
+    } 
+
+}
+@media(max-width:950px){
+
+    main article.about ul.choosingList{
+        top: 50%;
+    } 
+
+}
+@media(max-width:850px){
+
+    main article.about ul.choosingList{
+        top: 45%;
+    } 
+
+}
+@media(max-width:750px){
+
+    main article.about ul.choosingList{
+        top: 40%;
+    } 
+
+}
+
+@media(max-width:670px){
+    main article.about ul.choosingList{
+        width: 100%;
+        justify-content: space-around;
+        top: 35%;
+    }
+    main article.about ul.choosingList li{
+        font-size: 12px;
+    }
+
+}
+@media(max-width:555px){
+    main article.about ul.choosingList{
+        width: 100%;
+        justify-content: space-around;
+        top: 30%;
+    }
+    main article.about ul.choosingList li{
+        font-size: 12px;
+    }
+
+}
+@media(max-width:450px){
+    main article.about ul.choosingList{
+        width: 100%;
+        justify-content: space-around;
+        top: 24%;
+    }
+    main article.about ul.choosingList li{
+        font-size: 12px;
+    }
+
+}
+@media(max-width:377px){
+    main article.about ul.choosingList{
+        width: 100%;
+        justify-content: space-around;
+        top: 23%;
+    }
+    main article.about ul.choosingList li{
+        font-size: 12px;
+    }
+
+}
+
+.active1{
+    background-color: var(--second-color) !important;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    color: white;
+    
+    }   
+
+.Box.active1{
+    display: block !important;
+}
+
+
+/* End ChoosingList */
+
+/* Start the web list */
+
+/* Start Round Trip */
+
+main div.mainParent{
+    display: none;
+    margin-bottom: 20%;
+    width: fit-content;
+    height: fit-content;
+}
+
+@media(max-width:800px){
+    main div.mainParent{
+        margin-bottom: 130%;
+    }
+}
+@media(max-width:450px){
+    main div.mainParent{
+        margin-bottom: 150%;
+    }
+}
+
+
+
+main div.mainParent div.webList{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px solid rgb(213, 213, 213);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    position: absolute ;
+    top: calc(50vw);
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    padding: 0 10px;
+}
+
+@media(min-width:1300px){
+    main div.mainParent div.webList{
+    top: calc(87vh);
+        
+}
+
+}
+
+
+/* @media(max-width:840px){
+    main div.mainParent div.webList{
+        top: calc(55vw);
+    }
+} */
+@media(max-width:670px){
+    main div.mainParent div.webList{
+        top: calc(55vw);
+    }
+}
+@media(max-width:520px){
+    main div.mainParent div.webList{
+        top: calc(61vw);
+    }
+}
+
+
+
+main div.mainParent div.webList h2{
+    margin: 4% 0% 2% 3%;
+    color: var(--main-color);
+    width: 100%;
+
+
+}
+main div.mainParent div.webList div.child{
+    width: calc(23%);
+    margin: 0 1% ;
+    padding: 2%;
+    background-color: var(--second-color);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+@media(max-width:800px){
+    main div.mainParent div.webList div.child{
+    width: 800%;
+    margin: 3%;
+        
+}
+}
+
+main div.mainParent div.webList div.child h3{
+    margin-bottom: 10%;
+}
+main div.mainParent div.webList div.child input{
+    width:100%;
+    background-color: transparent;
+    border-color: transparent transparent var(--text-color) transparent;
+}
+
+main div.mainParent div.webList div.child input:focus{
+    border-color: transparent transparent var(--text-color) transparent;
+    outline: 0;
+    caret-color: var(--text-color);
+}
+
+main div.mainParent div.continue{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 25px;
+    left: 60vw;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+
+
+main div.mainParent div.continue button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+
+}
+main div.mainParent div.continue button i{
+    font-size: 1.5em;
+}
+
+/* End Round Trip */
+
+/* Start Time Table */
+
+main div.mainParent2{
+    display: none;
+    margin-bottom: 30%;
+}
+
+@media(max-width:1000px){
+    main div.mainParent2{
+    margin-bottom: 35%;
+}
+}
+
+@media(max-width:840px){
+    main div.mainParent2{
+    margin-bottom: 40%;
+}
+}
+
+@media(max-width:800px){
+    main div.mainParent2{
+    margin-bottom: 80%;
+}
+}
+@media(max-width:670px){
+    main div.mainParent2{
+    margin-bottom: 100%;
+}
+}
+@media(max-width:570px){
+    main div.mainParent2{
+    margin-bottom: 120%;
+}
+}
+@media(max-width:500px){
+    main div.mainParent2{
+    margin-bottom: 150%;
+}
+}
+@media(max-width:420px){
+    main div.mainParent2{
+    margin-bottom: 180%;
+}
+}
+
+main div.mainParent2 div.webList2{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px solid rgb(213, 213, 213);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    position: absolute;
+    top: calc(50vw);
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    padding: 0 0 0 30px;
+}
+
+@media(min-width:1300px){
+    main div.mainParent2 div.webList2{
+    top: calc(87vh);
+        
+}
+
+}
+
+
+/* @media(max-width:840px){
+    main div.mainParent2 div.webList2{
+        top: calc(55vw);
+    }
+} */
+@media(max-width:670px){
+    main div.mainParent2 div.webList2{
+        top: calc(55vw);
+    }
+}
+@media(max-width:520px){
+    main div.mainParent2 div.webList2{
+        top: calc(61vw);
+    }
+}
+
+
+
+main div.mainParent2 div.webList2 h2{
+    margin: 4% 0% 2% 3%;
+    color: var(--main-color);
+    width: 100%;
+
+}main div.mainParent2 div.webList2 div.child{
+    position: relative;
+    width: 100%;
+}
+
+
+main div.mainParent2 div.webList2 div.child p{
+    padding: 0 3%;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: var(--text-color);
+}
+
+
+/* Start form */
+
+main div.mainParent2 div.webList2 div.child form{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+main div.mainParent2 div.webList2 div.child form div.inputBox{
+    width: 50%;
+    margin-bottom: 25px;
+    /* padding: 0 10px ; */
+}
+@media(max-width:800px){
+    main div.mainParent2 div.webList2 div.child form div.inputBox{
+        width: 100%;
+    }
+}
+main div.mainParent2 div.webList2 div.child form div.inputBox label{
+    color: var(--main-color);
+    font-weight: bolder;
+
+}
+main div.mainParent2 div.webList2 div.child form div.inputBox div.backgroundcolor{
+    width: 95%;
+    height: 40px;
+    background-color: var(--second-color);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main div.mainParent2 div.webList2 div.child form div.inputBox input{
+    background-color: transparent;
+    outline: none;
+    border-color: transparent transparent var(--text-color) transparent;
+    width: 90%;
+
+}   
+
+main div.mainParent2 div.webList2 div.child form div.inputBox input:focus{
+    border-color: transparent transparent var(--text-color) transparent;
+    outline: 0;
+    caret-color: var(--text-color);
+}
+
+main div.mainParent2 div.webList2 div.continue{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: var(--main-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: 25px;
+    left: 60vw;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media(max-width:550px){
+    main div.mainParent2 div.webList2 div.continue{
+        left: 260px;
+    }
+}
+@media(max-width:450px){
+    main div.mainParent2 div.webList2 div.continue{
+        left: 200px;
+    }
+}
+
+
+main div.mainParent2 div.webList2 div.continue button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+
+}
+main div.mainParent2 div.webList2 div.continue button i{
+    font-size: 1.5em;
+}
+
+/* End form */
+
+/* End Time Table */
+
+
+/* Start flightstatus */
+
+main div.mainParent3{
+    width: 100%;
+    display: none;
+    margin-bottom: 50%;
+}
+
+@media(max-width:1000px){
+    main div.mainParent3{
+        margin-bottom: 70%;
+    }
+}
+
+@media(max-width:650px){
+    main div.mainParent3{
+        margin-bottom: 110%;
+    }
+}
+
+@media(max-width:550px){
+    main div.mainParent3{
+        margin-bottom: 140%;
+    }
+}
+
+@media(max-width:450px){
+    main div.mainParent3{
+        margin-bottom: 180%;
+    }
+}
+
+main div.mainParent3 div.webList3{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px solid rgb(213, 213, 213);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    position: absolute;
+    top: calc(40vw);
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    padding: 0 2%;
+}
+
+@media(max-width:1300px){
+    main div.mainParent3 div.webList3{
+    top: 50vw ;
+        
+}
+}
+
+@media(max-width:840px){
+    main div.mainParent3 div.webList3{
+        top: calc(55vw);
+    }
+}
+@media(max-width:440px){
+    main div.mainParent3 div.webList3{
+        top: calc(80vw);
+        width: 90%;
+
+    }
+}
+@media(max-width:670px){
+    main div.mainParent3 div.webList3{
+        top: calc(55vw);
+    }
+}
+@media(max-width:500px){
+    main div.mainParent3 div.webList3{
+        top: calc(61vw);
+        width: 90%;
+
+    }
+}
+
+
+main div.mainParent3 div.webList3 h2{
+    margin: 4% 0% 2% 3%;
+    color: var(--main-color);
+    width: 100%;
+
+}main div.mainParent3 div.webList3 div.child{
+    position: relative;
+    width: 100%;
+}
+
+
+main div.mainParent3 div.webList3 div.child p{
+    padding: 0 3%;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: var(--text-color);
+}
+
+
+main div.mainParent3 div.webList3 div.child h3{
+    color: var(--main-color);
+    margin: 4% 0% 4% 3%;
+    width: 100%;
+    
+}
+
+/* Start Form */
+
+main div.mainParent3 div.webList3 div.child form{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+main div.mainParent3 div.webList3 div.child form div.inputBox{
+    width: 90%;
+    margin-left: 3%;
+
+}
+
+main div.mainParent3 div.webList3 div.child form div.inputBox label{
+    color: var(--main-color);
+    font-weight: bolder;
+
+}
+
+main div.mainParent3 div.webList3 div.child form div.inputBox{
+    width: 95%;
+}
+
+
+main div.mainParent3 div.webList3 div.child form div.inputBox div.backgroundcolor{
+    width: 100%;
+    height: 40px;
+    background-color: var(--second-color);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main div.mainParent3 div.webList3 div.child form div.inputBox input{
+    background-color: transparent;
+    outline: none;
+    border-color: transparent transparent var(--text-color) transparent;
+    width: 90%;
+
+}  
+
+
+main div.mainParent3 div.webList3 div.child form h3{
+    margin-bottom: 20px;
+}
+
+
+main div.mainParent3 div.webList3 div.child form div.radioButtons{
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+main div.mainParent3 div.webList3 div.child form div.radioButtons input{
+    margin-left: 3%;
+    /* width: 45%; */
+    accent-color: var(--main-color);
+}
+main div.mainParent3 div.webList3 div.child form div.radioButtons span{
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+main div.mainParent3 div.webList3 div.child form div.btnss{
+    display: flex;
+    width: 100%;
+    margin: 3% 3% 5%;
+    padding: 0;
+}
+
+@media(max-width:600px){
+    main div.mainParent3 div.webList3 div.child form div.btnss{
+        flex-wrap: wrap;
+    }
+}
+
+
+main div.mainParent3 div.webList3 div.child form div.btnss button.find{
+    font-weight: bolder;
+    color: white;
+    background-color: var(--main-color);
+    border-color: transparent;
+    padding: 10px 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin-right: 3%;
+}
+main div.mainParent3 div.webList3 div.child form div.btnss button.reset{
+    font-weight: bolder;
+    color: white;
+    background-color: var(--main-color);
+    border-color: transparent;
+    padding: 0 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+main div.mainParent3 div.webList3 div.child form div.btnss p{
+    color: var(--text-color);
+    line-height: 20px;
+    width: 340px;
+    padding: 0;
+    margin-left: 3%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:600px){
+    main div.mainParent3 div.webList3 div.child form div.btnss p{
+        margin-top: 10px;
+    }
+}
+
+
+/* End Form */
+
+/* End flightstatus */
+
+
+/* Start MyBooking */
+main div.mainParent4{
+    display: none;
+    margin-bottom: 35%;
+}
+
+@media(max-width:1150px){
+    main div.mainParent4{
+        margin-bottom: 50%;
+    }
+}
+
+@media(max-width:880px){
+    main div.mainParent4{
+        margin-bottom: 70%;
+    }
+}
+
+@media(max-width:730px){
+    main div.mainParent4{
+        margin-bottom: 90%;
+    }
+}
+
+@media(max-width:580px){
+    main div.mainParent4{
+        margin-bottom: 130%;
+    }
+}
+
+
+@media(max-width:485px){
+    main div.mainParent4{
+        margin-bottom: 150%;
+    }
+}
+
+@media(max-width:450px){
+    main div.mainParent4{
+        margin-bottom: 170%;
+    }
+}
+
+@media(max-width:405px){
+    main div.mainParent4{
+        margin-bottom: 200%;
+    }
+}
+
+main div.mainParent4 div.webList4{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px solid rgb(213, 213, 213);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    position: absolute ;
+    top: calc(42vw);
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    padding: 0 10px;
+}
+
+@media(max-width:1300px){
+    main div.mainParent4 div.webList4{
+    top: 50vw ;
+        
+}
+
+}
+
+@media(max-width:840px){
+    main div.mainParent4 div.webList4{
+        top: calc(55vw);
+    }
+}
+@media(max-width:670px){
+    main div.mainParent4 div.webList4{
+        top: calc(55vw);
+    }
+}
+
+@media(max-width:700px){
+    main div.mainParent4 div.webList4{
+        width: 90%;
+    }
+}
+@media(max-width:600px){
+    main div.mainParent4 div.webList4{
+        top: 55vw;
+    }
+}
+@media(max-width:470px){
+    main div.mainParent4 div.webList4{
+        top: 60vw;
+    }
+}
+
+
+main div.mainParent4 div.webList4 h2{
+    margin: 4% 0% 2% 3%;
+    color: var(--main-color);
+    width: 100%;
+
+}main div.mainParent4 div.webList4 div.child{
+    position: relative;
+    width: 100%;
+}
+
+
+main div.mainParent4 div.webList4 div.child p{
+    padding: 0 3%;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: var(--text-color);
+}
+
+
+/* Start Form */
+
+main div.mainParent4 div.webList4 div.child form{
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 3%;
+}
+
+
+
+main div.mainParent4 div.webList4 div.child form div.inputBox{
+    width: 45%;
+    margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right:3% ;
+}
+
+@media(max-width:500px){
+    main div.mainParent4 div.webList4 div.child form div.inputBox{
+        width: 100%;
+    }
+}
+
+main div.mainParent4 div.webList4 div.child form div.inputBox label{
+    color: var(--main-color);
+    font-weight: bold;
+    text-align: center;
+}
+
+main div.mainParent4 div.webList4 div.child form div.inputBox div.backgroundcolor{
+    width: 100%;
+    height: 40px;
+    background-color: var(--second-color);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main div.mainParent4 div.webList4 div.child form div.inputBox input{
+    background-color: transparent;
+    outline: none;
+    border-color: transparent transparent var(--text-color) transparent;
+    width: 90%;
+
+}  
+
+main div.mainParent4 div.webList4 div.child form div.lastdiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 40px 0;
+}
+
+@media(max-width:500px){
+    main div.mainParent4 div.webList4 div.child form div.lastdiv {
+        flex-wrap: wrap;
+        margin: 1% 0;
+
+    }
+}
+
+
+main div.mainParent4 div.webList4 div.child form div.lastdiv p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    color: var(--second-color);
+    cursor: pointer;
+}
+
+main div.mainParent4 div.webList4 div.child form div.lastdiv button{
+    background-color: var(--main-color);
+    border-color: transparent;
+    padding: 10px 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    margin-right: 55px;
+}
+@media(max-width:500px){
+    main div.mainParent4 div.webList4 div.child form div.lastdiv button{
+        margin-left:20%;
+        margin-top: 20px;
+    }
+}
+
+
+/* Start Before Footer */
+
+section.bfFooter div.beforefooter {
+    width: 100%;
+    margin-top: 3em;
+    background-color: var(--text-color);
+}
+section.bfFooter div.beforefooter div.beforefooter2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+section.bfFooter div.beforefooter div.beforefooter2 h1{
+    color: var(--main-color);
+    margin: 5% 0 1% 0;
+    font-weight:lighter;
+    font-size: 2.5em;
+    width: 100%;
+    text-align: center;
+}
+section.bfFooter div.beforefooter div.beforefooter2 p{
+    color: var(--main-color);
+    text-align: center;
+}
+section.bfFooter div.beforefooter div.icons_in_beforefooter2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    flex-wrap: wrap;
+
+
+}
+
+section.bfFooter div.beforefooter div.icons_in_beforefooter2  div.content_of_icon {
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin: 3% 0 6% 0;
+
+}
+@media(max-width:550px){
+    section.bfFooter div.beforefooter div.icons_in_beforefooter2  div.content_of_icon {
+        width: 50%;
+    }
+}
+
+section.bfFooter div.beforefooter div.icons_in_beforefooter2  div.content_of_icon div.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section.bfFooter div.beforefooter div.icons_in_beforefooter2  div.content_of_icon div.text_of_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+section.bfFooter div.beforefooter div.icons_in_beforefooter2 i {
+    font-size: 70px;
+    color:rgb(40, 39, 39);
+}
+
+/* End Before Footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

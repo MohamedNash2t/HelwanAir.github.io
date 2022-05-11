@@ -1,0 +1,112 @@
+/*decorating suppoert box*/
+.supportheader{
+    padding: 50px;
+    height: 20px;
+    margin:auto;
+    margin-bottom: 50px;
+    color:var(--main-color);
+    display: flex;
+    align-items: center;
+    background-image: url(../images/pexels-laker-6156944.jpg);
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-left: 5%;
+    font-size: 3em;
+    font-weight: lighter;
+}
+/*end support box*/
+/* start webbooking box*/
+.webbookingbox{
+    background-color:var(--main-color);
+    padding: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 90%;
+    margin: auto;
+    color:var(--text-color);
+    font-weight: lighter;
+}
+/*webbookingheader*/
+.webbookingheader{
+    margin-bottom: 10px;
+    color: var(--second-color);
+    font-weight: lighter;
+}
+.webbokingunorderedlist{
+    list-style-position: inside;
+}
+.webbookinglist{
+    margin-bottom: 10px;
+}
+/*end webbooking list*/
+.secondbox{
+    background-color:transparent;
+    display: flex;
+    width: 90%;
+    height: 300px;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.paymentbox{
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-color);
+    flex-wrap: wrap;
+    width: 48%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.onlinerefundrequest{
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-color);
+    flex-wrap: wrap;
+    width: 48%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.paymentsupportdecorating{
+    margin: 20px 0;
+    width: 100%;
+    color: var(--second-color);
+    text-align: center;
+    height: 0px;
+    font-weight: lighter;
+}
+.paymentparagraph{
+    color: var(--text-color);
+    width: 80%;
+    text-align: center;
+    font-weight: bolder;
+
+}
+.onlinerefunddecorating{
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    color: var(--second-color);
+    height: 0px;
+    font-weight: lighter;
+}
+.onlinerefundparagraph{
+    color: var(--text-color);
+    width: 80%;
+    text-align: center;
+}
+.d5{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #005D8A;
+}

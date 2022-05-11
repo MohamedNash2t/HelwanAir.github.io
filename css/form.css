@@ -1,0 +1,307 @@
+/* start variables */
+:root{
+    --main-color:#005D8A;
+    --second-color:#58B6AA;
+    --text-color:#BCBCBC;
+}
+/* end variables */
+.bookaflighttitle{
+width: auto;
+height: 200px;
+background-image: url(../images/book\ page/pexels-pixabay-415071.jpg);
+background-size: cover;
+background-position: bottom center;
+
+  }
+  .bookaflighttitle h2
+  {
+    text-align: center;
+    color: #005D8A;
+    font-size: 50px;
+    transform: translate(-426px,116px);
+    -webkit-transform: translate(-426px,116px);
+    -moz-transform: translate(-426px,116px);
+    -ms-transform: translate(-426px,116px);
+    -o-transform: translate(-426px,116px);
+}
+    
+.Bookolacakyerinyazisi h1{
+    position: relative;
+    left: 482px;
+    top: 99px;
+    font-size: 54px;
+    color: #005D8A;
+}
+
+.radiobuttons{
+ position: relative;
+ left: 10px;
+
+width: 200px;
+}
+.Bookaflightform{
+	background-color: #005D8A;
+    border-style: solid;
+    border-radius: 8px;
+    width: 1100px;
+    padding: 10px;
+    margin: auto;
+    height: 533px;
+    display: flex;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+.uckutununyeri{
+    display: flex;
+    flex-direction: column;
+}
+
+.fromanddeperturedate{
+	
+	position: relative;
+	top: 10px;
+	padding: 10px;
+
+}
+
+.fromformairports1{
+position: relative;
+padding: 10px;
+left: 10px;
+top: 10px;
+}
+.labelforfromposition{
+	position: relative;
+	left: -160px;
+	top: 21px;
+	color: aliceblue;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.selectfromairports{
+	border: solid;
+	color: white;
+	background-color: #58B6AA;
+	border-radius: 20px;
+	border-color: white;
+	width: 266px;
+	height: 42px;
+    position: relative;
+    left: -183px;
+	border-width: 1px;
+    top: 11px;
+    padding: 10px;
+}
+.labelfortoposition{
+	position: relative;
+	left: 164px;
+    top: -62px;
+	color: aliceblue;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.selecttoairports{
+	border: solid;
+	color: white;
+	background-color: #58B6AA;
+	border-radius: 20px;
+	border-color: white;
+	width: 266px;
+	height: 42px;
+    position: relative;
+	left: 160px;
+    top: -56px;
+	border-width: 1px;
+    padding: 10px;
+}
+.DEPARTURE-DATEforairportsL{
+	position: relative;
+    left: -161px;
+    top: -27px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.DEPARTURE-DATEforairportsI{
+	border: solid;
+	color: white;
+	background-color: #58B6AA;
+	border-radius: 20px;
+	border-color: white;
+	width: 258px;
+    height: 42px;
+    position: relative;
+    left: -157px;
+    top: -17px;
+	align-items: center;
+	border-width: 1px;
+    padding: 10px;
+}
+.RETURN-DATEairportL{
+	position: relative;
+	left: 167px;
+    top: -87px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.RETURN-DATEairportI {
+	border: solid;
+	color: white;
+	background-color: #58B6AA;
+	border-radius: 20px;
+	border-color: white;
+	width: 258px;
+    height: 42px;
+    position: relative;
+	left: 164px;
+    top: -81px;
+	align-items: center;
+	border-width: 1px;
+    padding: 10px;
+}
+.adults-sayisi{
+	border: solid;
+    color: white;
+    background-color: #58B6AA;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    width: 175px;
+    height: 42px;
+    position: relative;
+    left: -155px;
+    top: -7px;
+    align-items: center;
+    padding: 10px;
+}
+.cocuk-sayisi{
+	border: solid;
+    color: white;
+    background-color: #58B6AA;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    width: 175px;
+    height: 42px;
+    position: relative;
+    left: -93px;
+    top: -7px;
+    align-items: center;
+    padding: 10px;
+}
+.bebek-sayisi{
+	border: solid;
+    color: white;
+    background-color: #58B6AA;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    width: 175px;
+    height: 42px;
+    position: relative;
+    left: 331px;
+    top: -52px;
+    padding: 10px;
+    align-items: center;
+}
+.cocuk-sayisi-yasi{
+	position: relative;
+    left: 103px;
+    top: -37px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.bebek-sayisi-yasi{
+	position: relative;
+	left: 349px;
+    top: -54px;
+    color: aliceblue;
+    font-size: 20px;
+    
+    font-weight: bolder;
+    
+}
+.Class-nameairportL{
+	position: relative;
+	left: -153px;
+    top: -30px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.class-nameairportI{
+	border: solid;
+	color: white;
+	background-color: #58B6AA;
+	border-radius: 20px;
+	border-color: white;
+	width: 258px;
+    height: 42px;
+    position: relative;
+    left: -157px;
+    top: -17px;
+	align-items: center;
+	border-width: 1px;
+    padding: 10px;
+}
+.submitmybookI{
+    background-color: white;
+    border: 2px solid;
+    color: #005D8A;
+    margin: 46px 27px;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+       left: 246px;
+    top: -111px;
+    width: 151px;
+    height: 50px;
+    padding: 14px;
+}
+.bookaflightphotoplace{
+    width: 358px;
+    height: 439px;
+    background-color: #BCBCBC;
+    position: relative;
+    left: -8px;
+    top: 38px;
+    background-image: url(../images/book\ page/pexels-sam-willis-1154619.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.videoolacakyerinyazisi h1{
+
+    position: relative;
+    left: 482px;
+    top: -20px;
+    font-size: 54px;
+    color: #005D8A;
+}
+.videonun-koyulacagi-yer{
+  width: 1100px;
+    padding: 10px;
+    margin: auto;
+    padding-bottom: 200px;
+
+}
+video{
+    max-width: 100%;
+}
+.iframe-koymam-gerekenyeri{
+    width: 1100px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 200px;
+  
+}
+iframe{
+    width: 1100px;
+    height: 533px;
+    align-items: center;
+    max-width: 100%;
+    background-size: cover;
+
+}

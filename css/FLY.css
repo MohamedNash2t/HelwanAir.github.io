@@ -1,0 +1,86 @@
+* {
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+main div.Chead h1 {
+    color: var(--main-color);
+    margin: 5% 3%;
+}
+
+main div.AllBoxs {
+    width: 100%;
+    margin: 3% 0;
+    height: 100%;
+}
+
+main div.AllBoxs div.Boxs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    height: 1100px;
+    padding: 20px;
+
+}
+
+main div.AllBoxs div.Boxs #box {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+main div.AllBoxs div.Boxs #box .ibox {
+    width: 100%;
+    height: 50%;
+    /* background-color: var(--main-color); */
+}
+
+main div.AllBoxs div.Boxs #box .PBox {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: var(--second-color);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+main div.AllBoxs div.Boxs #box .PBox h3 {
+    margin-top: 30px;
+    text-align: center;
+    color: var(--main-color);
+    height: fit-content;
+}
+
+main div.AllBoxs div.Boxs #box .PBox p {
+    text-align: center;
+    color: var(--text-color);
+    padding-bottom: 50px;
+}
+
+.M1 {
+    background-size: cover;
+}
+
+.M2 {
+    background-size: cover;
+}
+
+.M3 {
+    background-size: cover;
+}
+
+.M4 {
+    background-size: cover;
+}
+
+.M5 {
+    background-size: cover;
+}
