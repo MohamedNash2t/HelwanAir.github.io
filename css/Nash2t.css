@@ -19,45 +19,7 @@ main section.photos img{
 
 /*end Back ground image */
 
-/* start bottoms */
 
-main section.photos div i{
-    position: absolute;
-    font-size: 45px;
-    color: rgb(48, 48, 48);
-    top: 41%;
-}
-@media(max-width:800px){
-    main section.photos div i{
-        font-size: 30px;
-    }
-
-}
-/* Start left bottom */
-main section.photos div.bottom1 i{
-    right: 20px;
-}
-@media(max-width:800px){
-    main section.photos div.bottom1 i{
-        right: 10px;
-    }
-
-}
-/* End left bottom */
-
-/* Start Right bottom */
-main section.photos div.bottom2 i{
-    left: 20px;
-}
-@media(max-width:800px){
-    main section.photos div.bottom2 i{
-        left: 10px;
-    }
-
-}
-/* End Right bottom */
-
-/* end bottoms */
 
 
 /* Start ChoosingList */
