@@ -124,9 +124,15 @@ section.menu div.title div.TitleParagraph{
 }
 
 section.menu div.btn-container {
-  margin-bottom: 4rem;
+  margin: auto auto 4rem auto;
   display: flex;
   justify-content: center;
+}
+@media(max-width:560px){
+    section.menu div.btn-container{
+      width: 100%;
+      margin-bottom: 2rem;
+  }
 }
 section.menu div.btn-container button.filter-btn {
   background: transparent;
@@ -140,6 +146,13 @@ section.menu div.btn-container button.filter-btn {
   color: var(--second-color);
   cursor: pointer;
   transition: var(--transition);
+}
+@media(max-width:560px){
+  section.menu div.btn-container button.filter-btn{
+    font-size: 0.5rem;
+    letter-spacing: 0px;
+
+}
 }
 section.menu div.btn-container button.filter-btn:hover {
   background: var(--main-color);
