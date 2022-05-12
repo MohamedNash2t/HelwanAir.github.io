@@ -12,7 +12,9 @@
   top: 26px;
   left: 32px;
   padding: 56px;
+  padding-right: 0;
   margin: 1px;
+  width: 100px;
 }
 .Bookpagetitle p{
 
@@ -25,7 +27,7 @@
 .bookpageparent{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 60px;
   margin-bottom: 200px;
   
@@ -36,11 +38,11 @@
   background-color:#58B6AA;
   padding: 10px;
   margin: 10px;
- width: 500px;
+ width: 100%;
  display: flex;
  flex-wrap: wrap;
  justify-content: center;
- height: 800px;
+ height: 600px;
  overflow: hidden;
 
 
@@ -50,13 +52,13 @@
 .bookpageparent div.x1 h1{
   color:#005D8A;
   text-align: center; 
-  font-size: 50px;
+  /* font-size: 50px; */
 }
 .bookpageparent div.x1 p{
 color: aliceblue;
 text-align: center;
-font-size: 39px;
-line-height: 50px;
+/* font-size: 39px; */
+line-height: 25px;
 padding: 10px;
 margin-bottom: 10px;
 }
@@ -82,6 +84,7 @@ background-color: #BCBCBC;
 }
 a{
  text-decoration: none;
+ width: 30%;
 }
 
 
@@ -100,6 +103,7 @@ a{
   }
   .bookpagebox1imgmohamedsaber{
     height: 50%;
+
 
   }
 }
@@ -175,7 +179,7 @@ justify-content: center;
 .mybookingpagebox1 h1{
   color: #58B6AA;
   text-align: left;
-  font-size: 50px;
+  /* font-size: 50px; */
   padding-left: 48px;
   position: flex;
   font-weight: bolder;
@@ -290,6 +294,7 @@ justify-content: center;
   padding-bottom: 30px;
   padding-top: 30px;
   padding-right: 48px;
+  margin-top: 50px;
 }
 .mybookingpagebox3{
   background-color: #005D8A;
@@ -302,18 +307,19 @@ justify-content: center;
 .mybookingpagebox3 h1{
   color: #58B6AA;
   text-align: left;
-  font-size: 50px;
+  /* font-size: 50px; */
   padding-left: 48px;
 }
 .mybookingpagebox3list{
   color: white;
   text-align: left;
-  font-size: 28px;
+  /* font-size: 28px; */
   padding-left: 115px;
   padding-right: 80px;
   padding-bottom: 30px;
-  line-height:40px;
+  line-height:25px;
   list-style:none;
+  /* margin-top: 100px; */
   
 }
 .mybookingpagebox3list li::before {
